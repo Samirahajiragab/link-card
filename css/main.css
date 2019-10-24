@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  background-color: #f0eee8;
+  line-height: 1.5;
+  color: #512200;
+  margin: 0 0 5rem;
+  font-size: .875rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: inline-block;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  background: #dcd4cd;
+  padding: 1rem;
+  font-size: 1.125rem;
+}
+
+h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-style: normal;
+  color: #512200;
+  margin: 0;
+  margin-top: .15em;
+  padding: 0;
+}
+
+.linckcard h2 {
+  color: #fff;
+}
+
+p {
+  padding: 0;
+  padding-right: 2em;
+  margin: 0;
+  font-size: 1.125rem;
+  margin-top: 1em;
+}
+.nav {
+  margin: 0;
+  padding: 1em;
+  padding-left: 0;
+  border-top: 2px solid #785439;
+  border-bottom: 2px solid #785439;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-top: 0;
+}
+
+body:hover {
+  background-color: #cabdb2;
+}
+
+.nav li {
+  width: 50%;
+  font-size: 1rem;
+}
+
+.link-card {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.125em;
+  display: inline-block;
+  padding: .5em .75em;
+  background-color:  #785439;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: .8em;
+  margin-bottom: 0;
+  margin-left: 4.3em;
+  text-align: center;
+}
+
+.link-card:hover {
+  background-color: #512200;
+  color: #fff;
+}
