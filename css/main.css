@@ -32,7 +32,7 @@ h2 {
   padding: 0;
 }
 
-.linckcard h2 {
+.linkcard h2 {
   color: #fff;
 }
 
@@ -85,4 +85,13 @@ body:hover {
 .link-card:hover {
   background-color: #512200;
   color: #fff;
+}
+
+.btn-dl {
+  text-decoration: none;
+  color:#512200;
+}
+
+.btn-dl:hover {
+  background-color: #fff:
 }
