@@ -12,6 +12,32 @@ html {
   box-sizing: inherit;
 }
 
+dl {
+  display: flex;
+  flex-flow: row wrap;
+  border-top: 2px solid #785439;
+  border-bottom: 2px solid #785439;
+}
+
+dt {
+  flex-basis: 50%;
+  text-align: left;
+}
+
+dd {
+  flex-basis: 50%;
+  margin: 0;
+  text-align: left;
+}
+
+.nav {
+  margin-top: 1em;
+}
+
+.nave {
+  margin-bottom: 1em;
+}
+
 body {
   display: inline-block;
   border: 3px solid #9a816d;
@@ -32,7 +58,7 @@ h2 {
   padding: 0;
 }
 
-.linkcard h2 {
+.link-card h2 {
   color: #fff;
 }
 
@@ -44,26 +70,8 @@ p {
   margin-top: 1em;
 }
 
-.nav {
-  margin: 0;
-  padding: 1em;
-  padding-left: 0;
-  border-top: 2px solid #785439;
-  border-bottom: 2px solid #785439;
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: left;
-  margin-top: 0;
-}
-
 body:hover {
   background-color: #cabdb2;
-}
-
-.nav li {
-  width: 50%;
-  font-size: 1rem;
 }
 
 .link-card {
@@ -90,8 +98,4 @@ body:hover {
 .btn-dl {
   text-decoration: none;
   color:#512200;
-}
-
-.btn-dl:hover {
-  background-color: #fff:
 }
