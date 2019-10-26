@@ -61,7 +61,7 @@ h2 {
 }
 
 .link-card h2 {
-  text-align:left;
+  text-align: left;
 }
 
 p {
@@ -71,10 +71,17 @@ p {
   margin-top: 1em;
 }
 
-body:hover {
+.link-card:hover {
   background-color: #cabdb2;
 }
 
+a.link-card {
+  text-decoration: none;
+}
+
+a .btn {
+  text-decoration: none;
+}
 a.btn {
   font-family: Dosis, sans-serif;
   font-weight: bold;
