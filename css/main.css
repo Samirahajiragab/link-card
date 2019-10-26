@@ -18,7 +18,7 @@ dl {
   border-top: 2px solid #785439;
   border-bottom: 2px solid #785439;
   font-size: 1rem;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 dt {
@@ -85,7 +85,7 @@ body:hover {
   border-radius: 8px;
   text-decoration: none;
   color: #fff;
-  margin-top: .8em;
+  margin-top: .4em;
   margin-bottom: 0;
   margin-left: 4.3em;
   text-align: center;
