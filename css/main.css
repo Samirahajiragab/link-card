@@ -40,7 +40,7 @@ dd {
   margin-bottom: 1em;
 }
 
-body {
+.link-card {
   display: inline-block;
   border: 3px solid #9a816d;
   border-radius: 8px;
@@ -61,7 +61,7 @@ h2 {
 }
 
 .link-card h2 {
-  color: #fff;
+  text-align:left;
 }
 
 p {
@@ -75,7 +75,7 @@ body:hover {
   background-color: #cabdb2;
 }
 
-.link-card {
+a.btn {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   font-size: 1.125em;
@@ -91,7 +91,7 @@ body:hover {
   text-align: center;
 }
 
-.link-card:hover {
+a.btn:hover {
   background-color: #512200;
   color: #fff;
 }
