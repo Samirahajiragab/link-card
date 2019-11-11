@@ -3,7 +3,6 @@ html {
   font-family: Georgia, serif;
   background-color: #f0eee8;
   line-height: 1.5;
-  color: #512200;
   margin: 0 0 5rem;
   font-size: .875rem;
 }
@@ -12,63 +11,45 @@ html {
   box-sizing: inherit;
 }
 
-dl {
-  display: flex;
-  flex-flow: row wrap;
+.border {
   border-top: 2px solid #785439;
   border-bottom: 2px solid #785439;
-  font-size: 1rem;
-  margin-top: 1.5em;
+  margin: 1rem 0;
 }
 
-dt {
-  flex-basis: 50%;
+.link-card dt {
+  display: inline-block;
+  width: 45%;
   text-align: left;
 }
 
-dd {
-  flex-basis: 50%;
+.link-card dd {
   margin: 0;
-  text-align: left;
-}
-
-.nav {
-  margin-top: 1em;
-}
-
-.nave {
-  margin-bottom: 1em;
+  display: inline-block;
 }
 
 .link-card {
+  color: #512200;
   display: inline-block;
   border: 3px solid #9a816d;
-  border-radius: 8px;
+  border-radius: 3px;
   background: #dcd4cd;
   padding: 1rem;
+}
+
+.link-card p {
   font-size: 1.125rem;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 900;
   font-style: normal;
   color: #512200;
   margin: 0;
   margin-top: .15em;
   padding: 0;
-}
-
-.link-card h2 {
-  text-align: left;
-}
-
-p {
-  padding: 0;
-  margin: 0;
-  font-size: 1.125rem;
-  margin-top: 1em;
 }
 
 .link-card:hover {
@@ -79,31 +60,20 @@ a.link-card {
   text-decoration: none;
 }
 
-a .btn {
-  text-decoration: none;
+.btn-wrap {
+  text-align: center;
+  margin: 0 0 1rem;
 }
-a.btn {
+
+.btn {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   font-size: 1.125em;
   display: inline-block;
-  padding: .5em .75em;
+  padding: .4em .75em .5em;
   background-color: #785439;
   border-radius: 8px;
   text-decoration: none;
   color: #fff;
-  margin-top: .4em;
-  margin-bottom: 0;
-  margin-left: 4.3em;
   text-align: center;
-}
-
-a.btn:hover {
-  background-color: #512200;
-  color: #fff;
-}
-
-.btn-dl {
-  text-decoration: none;
-  color: #512200;
 }
