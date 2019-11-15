@@ -26,6 +26,8 @@ html {
 .link-card dd {
   margin: 0;
   display: inline-block;
+  width: 45%;
+  text-align: left;
 }
 
 .link-card {
