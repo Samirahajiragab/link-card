@@ -12,16 +12,17 @@ html {
 }
 
 .border {
-  border-top: 2px solid #785439;
-  border-bottom: 2px solid #785439;
-  margin: 1rem 0 1.125rem;
+  border-top: 2px solid #9a816d;
+  padding-bottom: .3em;
+  border-bottom: 2px solid #9a816d;
+  margin: 1rem 0 1.15rem;
 }
 
 .link-card dt {
   display: inline-block;
   width: 45%;
   text-align: left;
-  margin-left: .5em;
+  margin-left: .4em;
 }
 
 .link-card dd {
@@ -29,7 +30,7 @@ html {
   display: inline-block;
   width: 45%;
   text-align: left;
-  margin-left: -.5em;
+  margin-left: -.4em;
 }
 
 .link-card {
@@ -44,18 +45,19 @@ html {
 
 .link-card p {
   font-size: 1.125rem;
-  margin-bottom: 1.3em;
+  margin-bottom: 1.2em;
   margin-left: .5em;
 }
 
 .link-card h2 {
   font-family: Dosis, sans-serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 900;
   font-style: normal;
   color: #512200;
   margin: 0;
-  margin-left: .5em;
+  margin-top: .3em;
+  margin-left: .2em;
   padding: 0;
 }
 
