@@ -15,7 +15,7 @@ html {
   border-top: 2px solid #9a816d;
   padding-bottom: .3em;
   border-bottom: 2px solid #9a816d;
-  margin: 1rem 0 1.15rem;
+  margin: 1rem 0 1.175rem;
 }
 
 .link-card dt {
@@ -26,11 +26,12 @@ html {
 }
 
 .link-card dd {
+  font-style: italic;
   margin: 0;
   display: inline-block;
   width: 45%;
   text-align: left;
-  margin-left: -.3em;
+  margin-left: -.4em;
 }
 
 .link-card {
@@ -46,7 +47,7 @@ html {
 .link-card p {
   font-size: 1.125rem;
   margin-bottom: 1.2em;
-  margin-left: .5em;
+  margin-left: .4em;
 }
 
 .link-card h2 {
